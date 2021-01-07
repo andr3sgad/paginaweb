@@ -27,7 +27,7 @@ p {
   color: white;
   padding: 2rem 0;
 
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   right: 0;
@@ -83,9 +83,10 @@ p {
 
   .footer{
     background: #747474;
-    padding: 4rem 0;
+    padding: 2rem 0;
     text-align: center;
-    margin-top: 6rem;
+    bottom: 0;
+
   }
 
 @media only screen and (max-width: 767px){
@@ -98,7 +99,6 @@ p {
 
   .navigation{
     width: 100%;
-    margin-top: 1rem;
   }
 
   .navigation ul{
@@ -126,20 +126,21 @@ p {
 /** Aqui comienzan los estilos de location.html **/
 
 #map{
-  height: 500px;
+  height: 600px;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
+  bottom: -50;
 }
 
 /** Aqui comienzan los estilos de contact.html **/
 
 .footer-es{
   background: #747474;
-  padding: 4rem 0;
+  padding: 1rem 0;
   text-align: center;
-  margin-top: 30%;
-  position: static;
+  margin-top: 10%;
+  position: relative;
   bottom: 0;
   right: 0;
 }
