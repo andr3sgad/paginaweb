@@ -97,7 +97,9 @@ h1{
     align-items: center;
   }
 
-
+  #message{
+    padding: 1rem;
+  }
 
   .footer{
     background: #747474;
