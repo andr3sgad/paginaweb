@@ -1,0 +1,181 @@
+body {
+  font-family: georgia, times, serif;
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+h1{
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
+
+
+.container{
+  width: 95%;
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.header{
+  background: #333;
+  color: white;
+  padding: 0 0;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+  .header a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+  }
+
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+
+#menu-icon{
+  display: none;
+}
+
+.navigation ul{
+  margin: 0;
+  padding: 0 2rem;
+  list-style: none;
+}
+.navigation ul li {
+  display: inline-block;
+}
+  .navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4 linear;
+    border-radius: 5px;
+  }
+
+  .navigation ul li a:hover{
+    background: #4a4a4a;
+  }
+
+  .main {
+    padding-top: 8rem;
+  }
+
+  section#banner {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/banner.JPG);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #rectangle{
+    width: 600px;
+    height: 300px;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+  }
+
+
+
+  .footer{
+    background: #747474;
+    padding: 2rem 0;
+    text-align: center;
+    bottom: 0;
+
+  }
+
+@media only screen and (max-width: 767px){
+
+  .menu-icon{
+    display: block;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+  }
+  #menu-icon{
+    display: block;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+  }
+
+  .navigation{
+    width: 100%;
+  }
+
+  .navigation ul{
+    display: none;
+  }
+  .navigation ul.show{
+    display: unset;
+  }
+
+  .navigation ul li {
+    display: block;
+  }
+    .navigation ul li a {
+      display: block;
+      padding: 0.5rem 3rem;
+      transition: all 0.4 linear;
+      border-radius: 5px;
+    }
+  
+    .navigation ul li a:hover{
+      background: #4a4a4a;
+    }
+
+    section#banner {
+      width: 100%;
+      background-image: url(img/banner.JPG);
+      background-attachment: fixed;
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index:-1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+/** Aqui comienzan los estilos de location.html **/
+
+#map{
+  height: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/** Aqui comienzan los estilos de contact.html **/
+
+.footer-es{
+  background: #747474;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 10%;
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
