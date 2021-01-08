@@ -26,8 +26,8 @@ p {
   background: #333;
   color: white;
   padding: 2rem 0;
-
-  position: absolute;
+  position: fixed;
+  z-index: 4;
   left: 0;
   top: 0;
   right: 0;
@@ -105,7 +105,7 @@ p {
     display: none;
   }
   .navigation ul.show{
-    display: block;
+    display: unset;
   }
 
   .navigation ul li {
