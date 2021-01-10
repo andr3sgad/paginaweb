@@ -98,7 +98,14 @@ h1{
     align-items: center;
   }
 
-  
+  #message {
+    font-size: 2vw;
+    padding: 1rem;
+    line-height: auto;
+    margin: 0%;
+    align-content: flex-start;
+    line-height: 150%;
+  }
 
   .footer{
     background: #747474;
@@ -108,14 +115,7 @@ h1{
 
   }
 
-  #message {
-    font-size: 2vw;
-    padding: 1rem;
-    line-height: auto;
-    margin: 0%;
-    align-content: flex-start;
-    line-height: 150%;
-  }
+  
 
   @media only screen and (min-width: 1060px){
     #message {
